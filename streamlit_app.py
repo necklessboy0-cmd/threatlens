@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai 
+import google.generativeai as genai
 import json
 from sources import detect_ioc_type, is_valid_ioc, SOURCES
 
