@@ -1,6 +1,3 @@
-# Rename uv.lock to disable it
-mv uv.lock uv.lock.bak
-
-# Create/update requirements.txt
-echo "google-generativeai>=0.8.3" >> requirements.txt
-echo "streamlit>=1.28.0" >> requirements.txt
+google-generativeai>=0.8.3
+streamlit>=1.28.0
+python-dotenv>=1.0.0
